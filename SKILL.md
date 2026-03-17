@@ -1,6 +1,6 @@
 ---
 name: architect
-description: "Multidisciplinary idea and project evaluator. Dispatches 3-6 specialist evaluators in parallel (market, technical, risk, impact, resources, innovation), synthesizes their outputs into a unified assessment with scores, Value Matrix, and actionable next steps. Use when: evaluate idea, assess project, is this worth building, analyze opportunity, score my idea, project evaluation."
+description: "Multidisciplinary idea and project evaluator. Dispatches 3-6 specialist evaluators in parallel (market, technical, risk, impact, resources, innovation), synthesizes their outputs into a unified assessment with scores, Value Matrix, and actionable next steps. Use when: evaluate idea, assess project, is this worth building, analyze opportunity, score my idea, project evaluation, should I build this, business viability, feasibility study, startup idea."
 license: MIT
 metadata:
   version: 1.0.0
