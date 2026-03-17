@@ -89,6 +89,33 @@ After installing, fill in `data/context.md` with your:
 
 This personalizes all evaluations to your context.
 
+## Example Output
+
+A condensed version of the Value Matrix and verdict produced by this skill:
+
+```
+## Value Matrix
+| Dimension            | Score | Key Finding                              |
+|----------------------|-------|------------------------------------------|
+| Commercial           | 7/10  | Strong revenue potential, growing market  |
+| Educational          | 8/10  | Fills gap in multi-agent patterns         |
+| Social               | 6/10  | Benefits developer community              |
+| Technical Feasibility| 8/10  | Proven patterns, builder has skills       |
+| Risk Level           | 4/10  | Platform dependency, maintenance burden   |
+| Resource Efficiency  | 7/10  | MVP achievable in weeks                   |
+
+**Opportunity Score: 7.0/10 (Strong)**
+Verdict: CONDITIONAL GO — proceed with validation
+```
+
+This is followed by a risk assessment (Critical / Significant / Monitoring items with Go/No-Go recommendation), key synergies across dimensions, and a prioritized list of max 7 next steps. For existing projects, a Project Health Score and Course Corrections section is also included.
+
+## Error Handling
+
+If an evaluator cannot assess a dimension (e.g., no market data available, no codebase to analyze for technical evaluation), it returns "Insufficient Data" instead of guessing. The synthesizer adjusts weights accordingly, redistributing weight across the dimensions that have valid scores.
+
+This prevents inflated or deflated scores from speculative assessments. The final output clearly marks which dimensions were scored with full data vs partial data, so the user knows where to provide more context for a more accurate evaluation.
+
 ## Bilingual
 
 All evaluators respond in the same language you write in. Spanish or English — detected automatically.
