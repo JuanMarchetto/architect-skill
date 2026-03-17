@@ -55,6 +55,38 @@ Each evaluator runs as a parallel agent with its own analysis frameworks, scorin
 
 After installing, fill in `data/context.md` with your interests, skills, and risk tolerance to personalize evaluations.
 
+## Real Example — Skills Portfolio Evaluation
+
+Evaluated a portfolio of 25 AI coding assistant skills for open-source potential:
+
+```
+OPPORTUNITY SCORE: 7.0/10
+
+VALUE MATRIX
+┌──────────────────────┬───────┬─────────────────────────────────────────────┐
+│ Dimension            │ Score │ Assessment                                  │
+├──────────────────────┼───────┼─────────────────────────────────────────────┤
+│ Commercial           │  5/10 │ No direct monetization for markdown skills  │
+│ Educational          │  8/10 │ Multi-agent orchestration is novel pattern  │
+│ Social               │  6/10 │ Open source contribution, community value   │
+│ Technical Feasibility│  9/10 │ All skills working, cross-platform          │
+│ Risk Level           │  3/10 │ Low risk — MIT license, no infra costs      │
+│ Resource Efficiency  │  8/10 │ Solo developer, zero operational overhead   │
+└──────────────────────┴───────┴─────────────────────────────────────────────┘
+
+RISK ASSESSMENT: CONDITIONAL GO
+  Critical: No viable direct revenue model
+  Significant: Competitive pressure from Anthropic's own tools
+  Monitoring: Skills ecosystem adoption rate
+
+NEXT STEPS (prioritized):
+  1. Publish top 6 multi-agent skills immediately
+  2. Use portfolio as consulting proof-of-work
+  3. Apply to Anthropic Ambassador program
+  4. Consolidate overlapping skills (mobile cluster, noricum)
+  5. Add visual demos to READMEs
+```
+
 ## Requirements
 
 - Agent tool (for parallel evaluator dispatch)
