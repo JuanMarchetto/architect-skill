@@ -57,6 +57,8 @@ After installing, fill in `data/context.md` with your interests, skills, and ris
 
 ## Real Example — Decentralized Storage Protocol
 
+![architect demo](demo/demo.gif)
+
 Evaluated a Solana-based decentralized storage protocol (inspired by [Tape](https://github.com/spool-labs/tape), Colosseum Breakout grand prize winner):
 
 ```
