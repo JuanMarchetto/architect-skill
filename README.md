@@ -55,36 +55,36 @@ Each evaluator runs as a parallel agent with its own analysis frameworks, scorin
 
 After installing, fill in `data/context.md` with your interests, skills, and risk tolerance to personalize evaluations.
 
-## Real Example — Skills Portfolio Evaluation
+## Real Example — Decentralized Storage Protocol
 
-Evaluated a portfolio of 25 AI coding assistant skills for open-source potential:
+Evaluated a Solana-based decentralized storage protocol (inspired by [Tape](https://github.com/spool-labs/tape), Colosseum Breakout grand prize winner):
 
 ```
-OPPORTUNITY SCORE: 7.0/10
+Opportunity Score: 7.8/10
 
 VALUE MATRIX
 ┌──────────────────────┬───────┬─────────────────────────────────────────────┐
 │ Dimension            │ Score │ Assessment                                  │
 ├──────────────────────┼───────┼─────────────────────────────────────────────┤
-│ Commercial           │  5/10 │ No direct monetization for markdown skills  │
-│ Educational          │  8/10 │ Multi-agent orchestration is novel pattern  │
-│ Social               │  6/10 │ Open source contribution, community value   │
-│ Technical Feasibility│  9/10 │ All skills working, cross-platform          │
-│ Risk Level           │  3/10 │ Low risk — MIT license, no infra costs      │
-│ Resource Efficiency  │  8/10 │ Solo developer, zero operational overhead   │
+│ Commercial           │  8/10 │ $15B+ TAM, 1400x cost edge is defensible   │
+│ Educational          │  6/10 │ Novel PoA model advances storage research  │
+│ Social               │  7/10 │ Censorship-resistant data as public good   │
+│ Technical Feasibility│  7/10 │ Solana throughput fits; erasure coding hard │
+│ Risk Level           │  6/10 │ Network congestion + regulatory uncertainty │
+│ Resource Efficiency  │  8/10 │ Lean protocol team, hackathon-validated    │
 └──────────────────────┴───────┴─────────────────────────────────────────────┘
 
 RISK ASSESSMENT: CONDITIONAL GO
-  Critical: No viable direct revenue model
-  Significant: Competitive pressure from Anthropic's own tools
-  Monitoring: Skills ecosystem adoption rate
+  Critical: Solana outages could halt proof-of-access verification
+  Significant: Filecoin/Arweave network effects; SEC storage token scrutiny
+  Monitoring: Erasure coding overhead at scale; miner incentive sustainability
 
 NEXT STEPS (prioritized):
-  1. Publish top 6 multi-agent skills immediately
-  2. Use portfolio as consulting proof-of-work
-  3. Apply to Anthropic Ambassador program
-  4. Consolidate overlapping skills (mobile cluster, noricum)
-  5. Add visual demos to READMEs
+  1. Ship devnet with 100-node miner testnet and benchmark vs Arweave costs
+  2. Publish erasure coding spec + formal verification of PoA consensus
+  3. Secure ecosystem grant (Solana Foundation) for mainnet launch runway
+  4. Build S3-compatible SDK — adoption depends on developer experience
+  5. Partner with 2-3 Solana dApps for real-world storage pilot programs
 ```
 
 ## Requirements
