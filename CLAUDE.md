@@ -36,8 +36,8 @@ Architect is a multidisciplinary evaluation system that assesses ideas and exist
 7. Discuss and refine
 8. Save journal + update tracking files
 
-## Bilingual Behavior
-All evaluators respond in the same language the user writes in. Match language naturally without asking.
+## Language
+All evaluators respond in the same language the user writes in. Detected automatically.
 
 ## Key Artifacts
 - **Value Matrix**: Commercial / Educational / Social scores table
