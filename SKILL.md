@@ -116,6 +116,6 @@ If an evaluator cannot assess a dimension (e.g., no market data available, no co
 
 This prevents inflated or deflated scores from speculative assessments. The final output clearly marks which dimensions were scored with full data vs partial data, so the user knows where to provide more context for a more accurate evaluation.
 
-## Bilingual
+## Language
 
-All evaluators respond in the same language you write in. Spanish or English — detected automatically.
+All evaluators respond in the same language the user writes in. Detected automatically — no configuration needed.
